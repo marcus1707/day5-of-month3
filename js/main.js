@@ -8,12 +8,12 @@ let ticket= 500;
 let ticket1 = ticket * dollor;
 	hotel1 = hotel * dollor;
 	entertainment1 = entertainment * euro;
-	
-let cost1 = ticket1 + hotel1 + entertainment;
 
-let balans = Number(prompt('Please, enter your balans(in sum)'));
+let cost = ticket1 + hotel1 + entertainment;
 
-if (balans >= cost1) {
+let balans = prompt('Please, enter your balans(in sum)');
+
+if (balans >= cost) {
 	console.log("Bon voyage");
 } else {
 	console.log(
