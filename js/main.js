@@ -3,13 +3,13 @@ const euro = 12000;
 
 let ticket= 500;
 	hotel = 250;
-	entertainment = 120;
+	enjoying = 120;
 
 let ticket1 = ticket * dollor;
 	hotel1 = hotel * dollor;
-	entertainment1 = entertainment * euro;
+	enjoying1 = enjoying * euro;
 
-let cost = ticket1 + hotel1 + entertainment;
+let cost = ticket1 + hotel1 + enjoying1;
 
 let balans = prompt('Please, enter your balans(in sum)');
 
